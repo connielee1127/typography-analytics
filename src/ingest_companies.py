@@ -1,6 +1,6 @@
 import pandas as pd
 
-INPUT = "data/raw/companies.csv"
+INPUT = "data/raw/companies-2023-q4-sm.csv"
 OUTPUT = "data/processed/us_companies.csv"
 
 columns = [

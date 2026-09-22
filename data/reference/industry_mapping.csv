@@ -1,0 +1,198 @@
+industry,company_count,industry_group,review_status
+construction,168206,Construction & Real Estate,reviewed
+advertising services,124391,Commerce & Consumer,reviewed
+real estate,119215,Construction & Real Estate,reviewed
+it services and it consulting,93718,Technology & Digital,reviewed
+hospitals and health care,89602,Healthcare,reviewed
+financial services,84742,Finance & Insurance,reviewed
+software development,81280,Technology & Digital,reviewed
+retail,73395,Commerce & Consumer,reviewed
+business consulting and services,72670,Finance & Insurance,reviewed
+wellness and fitness services,67746,Fitness & Wellness,reviewed
+non-profit organizations,64874,Nonprofit & Social Services,reviewed
+medical practices,63863,Healthcare,reviewed
+law practice,48230,Legal & Professional Services,reviewed
+"technology, information and internet",47447,Technology & Digital,reviewed
+insurance,46664,Finance & Insurance,reviewed
+consumer services,44369,Commerce & Consumer,reviewed
+restaurants,39427,Hospitality & Travel,reviewed
+professional training and coaching,37678,Education,reviewed
+hospitality,37318,Hospitality & Travel,reviewed
+accounting,35984,Finance & Insurance,reviewed
+motor vehicle manufacturing,35355,Manufacturing & Industrial,reviewed
+food and beverage services,34346,Agriculture & Food,reviewed
+individual and family services,34290,Nonprofit & Social Services,reviewed
+education administration programs,34235,Education,reviewed
+design services,34232,Arts & Design,reviewed
+entertainment providers,34194,Entertainment & Recreation,reviewed
+staffing and recruiting,31334,Legal & Professional Services,reviewed
+higher education,30690,Education,reviewed
+religious institutions,28782,Nonprofit & Social Services,reviewed
+legal services,28259,Legal & Professional Services,reviewed
+media production,26981,Media & Publishing,reviewed
+information technology & services,26519,Technology & Digital,reviewed
+architecture and planning,26263,Construction & Real Estate,reviewed
+mental health care,25438,Healthcare,reviewed
+manufacturing,24894,Manufacturing & Industrial,reviewed
+spectator sports,24204,Entertainment & Recreation,reviewed
+oil and gas,24014,Energy & Environment,reviewed
+events services,24007,Hospitality & Travel,reviewed
+environmental services,23926,Energy & Environment,reviewed
+civic and social organizations,23774,Nonprofit & Social Services,reviewed
+retail apparel and fashion,23562,Commerce & Consumer,reviewed
+truck transportation,22637,Transportation & Logistics,reviewed
+"appliances, electrical, and electronics manufacturing",21331,Manufacturing & Industrial,reviewed
+"health, wellness & fitness",20905,Fitness & Wellness,reviewed
+facilities services,20688,Legal & Professional Services,reviewed
+telecommunications,20390,Technology & Digital,reviewed
+machinery manufacturing,20066,Manufacturing & Industrial,reviewed
+photography,19494,Arts & Design,reviewed
+primary and secondary education,18992,Education,reviewed
+wholesale,18641,Commerce & Consumer,reviewed
+non-profit organization management,16955,Nonprofit & Social Services,reviewed
+government administration,16409,Government & Public Affairs,reviewed
+marketing services,15949,Marketing & Communications,reviewed
+investment management,15747,Finance & Insurance,reviewed
+book and periodical publishing,15492,Media & Publishing,reviewed
+musicians,15122,Arts & Design,reviewed
+public relations and communications services,14412,Marketing Services,reviewed
+printing services,14362,Media & Publishing,reviewed
+industrial machinery manufacturing,14290,Manufacturing & Industrial,reviewed
+"transportation, logistics, supply chain and storage",14261,Transportation & Logistics,reviewed
+graphic design,14060,Arts & Design,reviewed
+food and beverage manufacturing,13562,Agriculture & Food,reviewed
+medical equipment manufacturing,13455,Manufacturing & Industrial,reviewed
+civil engineering,13032,Construction & Real Estate,reviewed
+travel arrangements,12938,Hospitality & Travel,reviewed
+wholesale building materials,12639,Commerce & Consumer,reviewed
+venture capital and private equity principals,12639,Finance & Insurance,reviewed
+research services,12278,Legal & Professional Services,reviewed
+human resources services,12082,Legal & Professional Services,reviewed
+e-learning providers,11922,Education,reviewed
+farming,11825,Agriculture & Food,reviewed
+banking,11815,Finance & Insurance,reviewed
+biotechnology research,11498,Healthcare,reviewed
+automotive,11424,Manufacturing & Industrial,reviewed
+security and investigations,11129,Legal & Professional Services,reviewed
+broadcast media production and distribution,10701,Media & Publishing,reviewed
+writing and editing,10688,Media & Publishing,reviewed
+food & beverages,10631,Agriculture & Food,reviewed
+education management,10538,Education,reviewed
+pharmaceutical manufacturing,10405,Manufacturing & Industrial,reviewed
+entertainment,10200,Entertainment & Recreation,reviewed
+design,9955,Arts & Design,reviewed
+performing arts,9828,Arts & Design,reviewed
+online audio and video media,9397,Media & Publishing,reviewed
+furniture and home furnishings manufacturing,9073,Manufacturing & Industrial,reviewed
+computer and network security,9025,Technology & Digital,reviewed
+recreational facilities,8903,Entertainment & Recreation,reviewed
+renewable energy semiconductor manufacturing,8871,Energy & Environment,reviewed
+utilities,8857,Energy & Environment,reviewed
+veterinary services,8699,Healthcare,reviewed
+airlines and aviation,8695,Hospitality & Travel,reviewed
+personal care product manufacturing,8522,Manufacturing & Industrial,reviewed
+chemical manufacturing,8022,Manufacturing & Industrial,reviewed
+philanthropic fundraising services,7639,Nonprofit & Social Services,reviewed
+retail art supplies,7485,Commerce & Consumer,reviewed
+public safety,7354,Government & Public Affairs,reviewed
+"movies, videos, and sound",7345,Arts & Design,reviewed
+information services,7258,Technology & Information,reviewed
+retail office equipment,7064,Commerce & Consumer,reviewed
+education,7034,Education,reviewed
+transportation/trucking/railroad,7007,Transportation & Logistics,reviewed
+aviation and aerospace component manufacturing,6998,Manufacturing & Industrial,reviewed
+artists and writers,6952,Arts & Design,reviewed
+apparel & fashion,6791,Commerce & Consumer,reviewed
+consumer goods,6739,Commerce & Consumer,reviewed
+mining,6417,Energy & Environment,reviewed
+automation machinery manufacturing,6291,Manufacturing & Industrial,reviewed
+"museums, historical sites, and zoos",6165,Entertainment & Recreation,reviewed
+sporting goods manufacturing,6115,Manufacturing & Industrial,reviewed
+leasing non-residential real estate,5929,Construction & Real Estate,reviewed
+law enforcement,5816,Government & Public Affairs,reviewed
+computers and electronics manufacturing,5782,Manufacturing & Industrial,reviewed
+executive offices,5672,,needs_review
+retail luxury goods and jewelry,5467,Commerce & Consumer,reviewed
+beverage manufacturing,5333,Manufacturing & Industrial,reviewed
+plastics manufacturing,5284,Manufacturing & Industrial,reviewed
+alternative medicine,5027,Healthcare,reviewed
+defense and space manufacturing,5020,Manufacturing & Industrial,reviewed
+computer games,4856,Technology & Digital,reviewed
+textile manufacturing,4837,Manufacturing & Industrial,reviewed
+international trade and development,4824,,needs_review
+packaging and containers manufacturing,4801,Manufacturing & Industrialneeds_review
+market research,4774,Legal & Professional Services,reviewed
+music,4768,Art & Design,reviewed
+fundraising,4534,Nonprofit & Social Services,reviewed
+maritime transportation,4329,Transportation & Logistics,reviewed
+mechanical or industrial engineering,4278,Legal & Professional Services,reviewed
+food production,4089,Agriculture & Food,reviewed
+newspaper publishing,4044,Media & Publishing,reviewed
+medical device,3960,Healthcare,reviewed
+government relations services,3869,Government & Public Affairs,reviewed
+building materials,3862,Construction & Real Estate,reviewed
+"leisure, travel & tourism",3807,Hospitality & Travel,reviewed
+investment banking,3767,Finance & Insurance,reviewed
+political organizations,3734,Government & Public Affairs,reviewed
+research,3633,Legal & Professional Services,reviewed
+libraries,3593,Government & Public Affairs,reviewed
+e-learning,3580,Education,reviewed
+"technology, information and media",3559,Technology & Digital,reviewed
+human resources,3401,Legal & Professional Services,reviewed
+warehousing and storage,3326,Transportation & Logistics,reviewed
+wholesale import and export,3290,Commerce & Consumer,reviewed
+computer networking products,3251,Technology & Digital,reviewed
+biotechnology,3157,Healthcare,reviewed
+computer hardware manufacturing,3111,Manufacturing & Industrial,reviewed
+strategic management services,2906,Legal & Professional Services,reviewed
+renewables & environment,2830,Energy & Environment,reviewed
+think tanks,2825,Legal & Professional Services,reviewed
+furniture,2765,Commerce & Consumer,reviewed
+online media,2706,Media & Publishing,reviewed
+freight and package transportation,2645,Transportation & Logistics,reviewed
+public policy offices,2633,Government & Public Affairs,reviewed
+armed forces,2617,Government & Public Affairs,reviewed
+veterinary,2577,Healthcare,reviewed
+international affairs,2527,Government & Public Affairs,reviewed
+cosmetics,2521,Commerce & Consumer,reviewed
+outsourcing and offshoring consulting,2413,Legal & Professional Services,reviewed
+arts & crafts,2383,Arts & Design,reviewed
+internet publishing,2379,Media & Publishing,reviewed
+translation and localization,2348,Legal & Professional Services,reviewed
+"glass, ceramics and concrete manufacturing",2245,Manufacturing & Industrial,reviewed
+wireless services,2234,Technology & Digital,reviewed
+business supplies & equipment,2233,Commerce & Consumer,reviewed
+fine art,2148,Arts & Design,reviewed
+semiconductor manufacturing,2120,Manufacturing & Industrial,reviewed
+aviation & aerospace,2045,Transportation & Logistics,reviewed
+professional services,1948,Legal & Professional Services,reviewed
+industrial automation,1914,Manufacturing & Industrial,reviewed
+philanthropy,1910,Nonprofit & Social Services,reviewed
+capital markets,1886,Finance & Insurance,reviewed
+ranching,1884,Agriculture & Food,reviewed
+health and human services,1856,Healthcare,reviewed
+consumer electronics,1815,Commerce & Consumer,reviewed
+paper and forest product manufacturing,1757,Manufacturing & Industrial,reviewed
+commercial real estate,1727,Construction & Real Estate,reviewed
+sporting goods,1674,Commerce & Consumer,reviewed
+luxury goods & jewelry,1656,Commerce & Consumer,reviewed
+animation and post-production,1631,Art & Design,reviewed
+retail health and personal care products,1628,Commerce & Consumer,reviewed
+retail groceries,1618,Commerce & Consumer,reviewed
+wine & spirits,1594,Agriculture & Food,reviewed
+gambling facilities and casinos,1484,Entertainment & Recreation,reviewed
+packaging & containers,1484,Transportation & Logistics,reviewed
+defense & space,1403,Manufacturing & Industrial,reviewed
+home health care services,1388,Healthcare,reviewed
+engineering services,1324,Legal & Professional Services,reviewed
+interior design,1248,Arts & Design,reviewed
+maritime,1238,Transportation & Logistics,reviewed
+fisheries,1200,Agriculture & Food,reviewed
+government relations,1152,Government & Public Affairs,reviewed
+insurance agencies and brokerages,1148,Finance & Insurance,reviewed
+data infrastructure and analytics,1147,Technology & Digital,reviewed
+social networking platforms,1111,Technology & Digital,reviewed
+internet marketplace platforms,1110,Technology & Digital,reviewed
+retail motor vehicles,1101,Commerce & Consumer,reviewed
+real estate agents and brokers,1079,Construction & Real Estate,reviewed
+solar electric power generation,1078,Energy & Environment,reviewed
