@@ -106,6 +106,7 @@ def classify_website(response):
         "yellowpages.com",
         "bbb.org",
         "mapquest.com",
+        "archive.org",
     }
 
     url_shortener_domains = {

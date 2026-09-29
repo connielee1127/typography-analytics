@@ -1,13 +1,13 @@
 industry,company_count,industry_group,review_status
 construction,168206,Construction & Real Estate,reviewed
-advertising services,124391,Commerce & Consumer,reviewed
+advertising services,124391,Marketing & Communications,reviewed
 real estate,119215,Construction & Real Estate,reviewed
 it services and it consulting,93718,Technology & Digital,reviewed
 hospitals and health care,89602,Healthcare,reviewed
 financial services,84742,Finance & Insurance,reviewed
 software development,81280,Technology & Digital,reviewed
 retail,73395,Commerce & Consumer,reviewed
-business consulting and services,72670,Finance & Insurance,reviewed
+business consulting and services,72670,Legal & Professional Services,reviewed
 wellness and fitness services,67746,Fitness & Wellness,reviewed
 non-profit organizations,64874,Nonprofit & Social Services,reviewed
 medical practices,63863,Healthcare,reviewed
@@ -18,9 +18,9 @@ consumer services,44369,Commerce & Consumer,reviewed
 restaurants,39427,Hospitality & Travel,reviewed
 professional training and coaching,37678,Education,reviewed
 hospitality,37318,Hospitality & Travel,reviewed
-accounting,35984,Finance & Insurance,reviewed
+accounting,35984,Legal & Professional Services,reviewed
 motor vehicle manufacturing,35355,Manufacturing & Industrial,reviewed
-food and beverage services,34346,Agriculture & Food,reviewed
+food and beverage services,34346,Hospitality & Travel,reviewed
 individual and family services,34290,Nonprofit & Social Services,reviewed
 education administration programs,34235,Education,reviewed
 design services,34232,Arts & Design,reviewed
@@ -55,7 +55,7 @@ marketing services,15949,Marketing & Communications,reviewed
 investment management,15747,Finance & Insurance,reviewed
 book and periodical publishing,15492,Media & Publishing,reviewed
 musicians,15122,Arts & Design,reviewed
-public relations and communications services,14412,Marketing Services,reviewed
+public relations and communications services,14412,Marketing & Communications,reviewed
 printing services,14362,Media & Publishing,reviewed
 industrial machinery manufacturing,14290,Manufacturing & Industrial,reviewed
 "transportation, logistics, supply chain and storage",14261,Transportation & Logistics,reviewed
@@ -111,7 +111,7 @@ sporting goods manufacturing,6115,Manufacturing & Industrial,reviewed
 leasing non-residential real estate,5929,Construction & Real Estate,reviewed
 law enforcement,5816,Government & Public Affairs,reviewed
 computers and electronics manufacturing,5782,Manufacturing & Industrial,reviewed
-executive offices,5672,,needs_review
+executive offices,5672,Ambiguous,reviewed
 retail luxury goods and jewelry,5467,Commerce & Consumer,reviewed
 beverage manufacturing,5333,Manufacturing & Industrial,reviewed
 plastics manufacturing,5284,Manufacturing & Industrial,reviewed
@@ -119,8 +119,8 @@ alternative medicine,5027,Healthcare,reviewed
 defense and space manufacturing,5020,Manufacturing & Industrial,reviewed
 computer games,4856,Technology & Digital,reviewed
 textile manufacturing,4837,Manufacturing & Industrial,reviewed
-international trade and development,4824,,needs_review
-packaging and containers manufacturing,4801,Manufacturing & Industrialneeds_review
+international trade and development,4824,Commerce & Consumer,reviewed
+packaging and containers manufacturing,4801,Manufacturing & Industrial,reviewed
 market research,4774,Legal & Professional Services,reviewed
 music,4768,Art & Design,reviewed
 fundraising,4534,Nonprofit & Social Services,reviewed
