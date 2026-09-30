@@ -2,17 +2,14 @@ from playwright.async_api import async_playwright, TimeoutError as PlaywrightTim
 
 async def load_page(url):
     """
-    Load a webpage and extract typography properties from its first H1.
+    Load a webpage and collect typographic data from visible text elements.
     """
 
     result = {
             "url": url,
-            "font_family": None,
-            "font_size": None,
-            "font_weight": None,
-            "line_height": None,
             "scrape_status": None,
-            "failure_reason":None
+            "failure_reason":None,
+            "elements": []
     }
     async with async_playwright() as p:
         browser = await p.chromium.launch()
@@ -25,27 +22,53 @@ async def load_page(url):
                 timeout=10000
             )
 
-            heading = await page.query_selector("h1")
+            elements = await page.locator(
+                "h1, h2, h3, p, div, span"
+            ).all()
 
-            if heading is None:
-                result["scrape_status"] = "failed"
-                result["failure_reason"] = "no_h1"
-                return result
-            
-            typography = await heading.evaluate("""
-                element => {
-                    const style = getComputedStyle(element);
-                                                
-                    return {
-                        font_family: style.fontFamily,
-                        font_size: style.fontSize,
-                        font_weight: style.fontWeight,
-                        line_height: style.lineHeight
-                    };
-                }
-            """)
+            for i, element in enumerate(elements):
+                data = await element.evaluate("""
+                    element => {
+                        const style = getComputedStyle(element);
+                        const rect = element.getBoundingClientRect();
+                                              
+                        const directText = Array.from(element.childNodes)
+                            .filter(node => node.nodeType === Node.TEXT_NODE)
+                            .map(node => node.textContent.trim())
+                            .filter(text => text.length > 0)
+                            .join(" ");
+                                                    
+                        return {
+                            tag: element.tagName.toLowerCase(),
+                            text: directText,
+                            text_length: directText.length,
 
-            result.update(typography)
+                            x: rect.x,
+                            y: rect.y,
+                            width: rect.width,
+                            height: rect.height,
+                                              
+                            font_family: style.fontFamily,
+                            font_size: style.fontSize,
+                            font_weight: style.fontWeight,
+                            line_height: style.lineHeight,
+                            letter_spacing: style.letterSpacing,
+                            text_transform: style.textTransform,
+                            text_align: style.textAlign,
+                                              
+                            visible:
+                                rect.width > 0 &&
+                                rect.height > 0 &&
+                                style.visibility !== "hidden" &&
+                                style.display !== "none"
+                        };
+                    }
+                """)
+
+                if data["visible"] and data["text"]:
+                    data["element_index"] = i
+                    result["elements"].append(data)
+
             result["scrape_status"] = "success" 
             return result
         
@@ -55,6 +78,8 @@ async def load_page(url):
             return result
              
         except Exception as e:
+            print(type(e).__name__)
+            print(e)
             result["scrape_status"] = "failed"
             result["failure_reason"] = type(e).__name__
             return result
